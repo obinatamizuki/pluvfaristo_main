@@ -1,0 +1,79 @@
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #36ab9c;
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #36ab9c;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand {
+    color: hsla(0, 0%, 100%, 0.7);
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand:focus,
+  #mainNav .navbar-brand:hover {
+    color: #36ab9c;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav .navbar-brand:focus,
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+}
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink .navbar-brand,
+  #mainNav.navbar-shrink .navbar-brand:focus,
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #36ab9c;
+  }
+}
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #36ab9c;
+}
+
+a,
+a:hover {
+  color: #36ab9c;
+}
+
+.text-primary {
+  color: #36ab9c !important;
+}
+
+.bg-primary {
+  background-color: #36ab9c !important;
+}
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #36ab9c !important;
+  background-color: transparent;
+}
+
+.btn-primary:hover {
+  background-color: #36ab9c71 !important;
+}
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: #36ab9cde;
+  transition: all 0.2s;
+}
